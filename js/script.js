@@ -16,7 +16,7 @@ console.log(isActive);
 
 // 2. Конвертер валют
 
-let rate = 37.42;
+const rate = 37.42;
 let total = +prompt("Введіть суму в гривнях: ");
 console.log(Math.floor(total * rate));
 
@@ -24,5 +24,5 @@ console.log(Math.floor(total * rate));
 
 let petrolAmount = +prompt("Потрібно літрів бензину: ");
 let price = +prompt("Ціна бензину за літр: ");
-let overallPrice = petrolAmount * price;
-console.log(overallPrice.toFixed(2));
+let overallPrice = (petrolAmount * price).toFixed(2);
+console.log(overallPrice);

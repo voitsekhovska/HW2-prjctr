@@ -26,3 +26,10 @@ let petrolAmount = +prompt("Потрібно літрів бензину: ");
 let price = +prompt("Ціна бензину за літр: ");
 let overallPrice = (petrolAmount * price).toFixed(2);
 console.log(overallPrice);
+
+// 4. Додаткова задача*
+
+let x = 8;
+let y = 16;
+let binaryResult = x + y;
+console.log(binaryResult.toString(2));
